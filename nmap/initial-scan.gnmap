@@ -1,0 +1,5 @@
+# Nmap 7.80 scan initiated Fri Jul 30 16:55:33 2021 as: nmap -sC -sV --traceroute -p- -O -vv -oA nmap/initial-scan 10.10.10.27
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.27 ()	Status: Up
+Host: 10.10.10.27 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Windows Server 2019 Standard 17763 microsoft-ds/, 1433/open/tcp//ms-sql-s//Microsoft SQL Server 2017 14.00.1000.00; RTM/, 5985/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 47001/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 49664/open/tcp//msrpc//Microsoft Windows RPC/, 49665/open/tcp//msrpc//Microsoft Windows RPC/, 49666/open/tcp//msrpc//Microsoft Windows RPC/, 49667/open/tcp//msrpc//Microsoft Windows RPC/, 49668/open/tcp//msrpc//Microsoft Windows RPC/, 49669/open/tcp//msrpc//Microsoft Windows RPC/	Ignored State: closed (65523)	Seq Index: 257	IP ID Seq: Incremental
+# Nmap done at Fri Jul 30 16:57:28 2021 -- 1 IP address (1 host up) scanned in 115.50 seconds
